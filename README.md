@@ -64,5 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-databutler-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://databutler.dev/
+Data Butler provides official rates, thresholds, and reference data for AI agents across multiple jurisdictions such as the UK, US, Germany, and the EU. The service offers a REST API and an MCP endpoint for querying tax, social‑insurance, vehicle, and other official figures, each with source URLs, verified dates, and digital signatures. No accounts, cookies, or IP logging are used; only anonymous event counts are recorded. The site includes a changelog of verified facts, RSS/Atom feeds, and documentation at /api and llms.txt.
+
+**Areas:** Company · Data · API · Tax · Reference
+
+## databutler-dev on APIs.io
+
+Everything profiled for databutler-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/databutler-dev/](https://apis.io/providers/databutler-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Data Butler API](https://apis.io/apis/databutler-dev/data-butler-api/) — Official facts and rates API providing verified data across multiple jurisdictions. No authentication required.
+- [databutler-dev API](https://apis.io/apis/databutler-dev/databutler-dev-api/) — databutler-dev API as documented publicly: 58 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [PostApiStatsRequest](https://apis.io/schemas/databutler-dev/databutler-dev-post-api-stats-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Databutler Dev Context](https://apis.io/jsonld/databutler-dev/databutler-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [databutler-dev API Rules](https://apis.io/rules/databutler-dev/databutler-dev-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Databutler Dev Domain Security](https://apis.io/security/databutler-dev/databutler-dev-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://databutler.dev/)
+- [Sign up](https://databutler.dev/f/uk/gov/register-birth/where)
+- [Terms of service](https://databutler.dev/terms)
+- [Privacy policy](https://databutler.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 31.5** — thin · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.3 |
+| Contract quality | 37.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 34.2 |
+
+**Agent readiness 16.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/databutler-dev/](https://apis.io/providers/databutler-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for databutler-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/databutler-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
